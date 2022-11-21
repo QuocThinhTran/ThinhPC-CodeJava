@@ -1,0 +1,7 @@
+1. Khi put các phần tử vào HashMap, nó ko sắp xêp các phần tử theo thứ tự mà chỉ sắp xếp theo key
+   Entry<K, V>: từng phần tử trong map là 1 entry, mỗi entry có 2 thuộc tính là k,v
+
+2. Hai đối tượng là equal trùng với nhau khi trùng id và address ===> trùng hashcode
+
+3.  Map<Entry<K, V>> K: overrides hashcode, equal
+    Note: number of attributes in hashcode, equal must be the same
